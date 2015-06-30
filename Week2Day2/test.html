@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Project: Login page</title>
+  <link rel="stylesheet" href="stylesheets/style.css" type="text/css">
+</head>
+<body>
+
+<fieldset>
+  <form method="POST" action="/login" action="">
+    <label for="login-email">E-mail: </label>
+    <input type="email" name="useremail" id="login-email" placeholder="Enter your email">
+    <br/>
+
+    <label for="login-password" >Password: </label>
+    <input type="password" name="password" id="login-password" class="square-password" placeholder="Enter your password">
+    <br/>
+    
+    <input type="submit" value="Login">
+  </form>
+  </fieldset>
+  <br/>
+
+<br>
+<br>
+
+<fieldset>
+    <form method="POST" action="/signup" action="">
+    <label for="first-name">First name: </label>
+    <input type="firstname" name="fn" id="firstname" placeholder="Enter your first name">
+    <br/>
+
+    <label for="last-name">Last name: </label>
+    <input type="lastname" name="ln" id="lastname" placeholder="Enter your last name">
+    <br/>
+
+    <label for="login-email">E-mail: </label>
+    <input type="email" name="useremail" id="signup-email" placeholder="Enter your email">
+    <br/>
+
+    <label for="login-password">Password: </label>
+    <input type="password" name="password" id="signup-password" style="-webkit-text-security: square;"
+    placeholder="Enter your password">
+    <br/>
+    
+    <input type="submit" value="Sign Up">
+  </form>
+
+</fieldset>  
+
+<form method="POST">
+<label for="rating" choose your rating</label>
+  <select name-"rating" id="rating">
+    <option value="1"> 1 Star </option>
+    <option value="2"> 2 Stars </option>
+    <option value="3"> 3 Stars </option>
+    <option value="4"> 4 Stars </option>
+  </select>
+
+<label for="comments"> enter your comments</label>
+  <textarea rows="4" cols="50">
+    Here are some text in the text area comment welcome. 
+</textarea>
+
+</form>
+</body>
+</html>

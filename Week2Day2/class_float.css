@@ -1,0 +1,43 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.col {
+  padding: 10px;
+  border: 1px solid orange;
+  float: left;
+}
+
+.row {
+  border: 1px solid green;
+}
+
+/*pusudo class, this is applied after .row is done.*/
+.row:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.full {
+  width: 100%;
+}
+
+.half {
+  width: 50%;
+}
+
+.third {
+  width: 33.333%;
+}
+
+.quarter {
+  width: 25%;
+}
+
+.fifth {
+  width: 20%;
+}
+
